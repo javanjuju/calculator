@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calculator</title>
-    </head>
-    <body>
-        
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="stylesheet.css">
+   <script src="app.js" defer></script>
+</head>
+<body>
+    <div class = box>
+        <div class="container">
+            <div id="screen">
+                <div id="workingArea">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div id="resultArea">
+                    <div></div>
+                </div>
+            </div>
+            <div class="box">
+                <div id="digits">
+                   <button class="number" type="button" data-value="9">9</button>
+                   <button class="number" type="button" data-value="8">8</button>
+                   <button class="number" type="button" data-value="7">7</button>
+                   <button class="number" type="button" data-value="6">6</button>
+                   <button class="number" type="button" data-value="5">5</button>
+                   <button class="number" type="button" data-value="4">4</button>
+                   <button class="number" type="button" data-value="3">3</button>
+                   <button class="number" type="button" data-value="2">2</button>
+                   <button class="number" type="button" data-value="1">1</button>
+                   <button class="number" type="button" data-value="0">0</button>
+                </div>
+                <div id="operands">
+                   <button data-value="*" class="operands" type="button">*</button>
+                   <button data-value="/" class="operands" type="button">/</button>
+                   <button data-value="+" class="operands" type="button">+</button>
+                   <button data-value="-" class="operands" type="button">-</button>
+                   <button data-value="%" class="operands" type="button">%</button>
+                   <button data-value="=" id ="answer" type="button">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
