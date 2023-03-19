@@ -108,7 +108,15 @@ answer.addEventListener('click',e=>{
     getAnswer();
 })
 clearBtn.addEventListener('click',e=>{
-    window.location.reload();
+    firstNumber = 0;//holds number before operand
+    secondNumber = 0;//holds number after operand
+    operandIndicator = 0;//shows if an operand has been input
+    workingChild = 0;
+    result = 0;
+    workingArea[0].textContent=''+'';
+    workingArea[1].textContent=''+'';
+    workingArea[2].textContent=''+'';
+    resultArea.textContent = result;
 })
 
 
