@@ -2,8 +2,17 @@ html, body{
     height: 100vh;
     margin: 0;
     padding: 0;
+    font-family: 'SingleDayRegular',sans-serif;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 button{
+    font-size: 3rem;
+    border-radius: 10%;
+    font-family: 'SingleDayRegular',sans-serif;
+}
+h1{
+    display: flex;
+    justify-content: center;
     font-size: 4rem;
 }
 .box{
@@ -11,27 +20,27 @@ button{
     justify-content: center;
     padding: 10px;
 }
-.container{
-    display: grid;
-}
 #workingArea,
 #resultArea{
     display: flex;
     flex: 1;
     font-size: 3rem;
-    height: 5rem;
+    height: 3rem;
     width: 35rem;
-    padding: 3px;
+    padding: 5px;
 }
 
 #screen{
-    outline: solid;
+    border-radius: 7% 7% 0 0;
+    border: 3px solid black;
 }
 .container .box{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 30px;
-    outline: solid;
+    border: 3px solid black;
+    border-top: transparent;
+    border-radius:0 0 5% 5% ;
 }
 #digits{
     display: grid;
@@ -40,6 +49,9 @@ button{
     gap: 10px;
     font-size: 3rem;
     text-align: center;
+}
+.numbers{
+    font-family: 'VG5000Regular',sans-serif;
 }
 #operands{
     font-size: 3rem;
