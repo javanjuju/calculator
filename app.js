@@ -104,4 +104,3 @@ clearBtn.addEventListener('click', () => {
 	workingArea[2].textContent = '' + '';
 	resultArea.textContent = result;
 });
-
